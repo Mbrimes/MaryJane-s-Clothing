@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+class Red extends React.Component{
+	constructor(props){
+		super(props);
+		this.state = {
+			brand: "Ford",
+			model: "Mustang",
+			color: "Red",
+			year: 2001
+		};
+	}
+	render() {
+		return(
+		<div>
+			<h1>My {this.state.brand}</h1>
+			<h2>
+			it is a {this.state.color} {this.state.model} from {this.state.year}.
+			</h2>
+		</div>
+		);
+	}
+}
+const ross=ReactDOM.createRoot(document.getElementById('zxx'));
+ross.render(<Red/>);
