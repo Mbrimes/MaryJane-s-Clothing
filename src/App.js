@@ -1,8 +1,8 @@
+import React from 'react';
 import {useState, useEffect} from 'react';
 import './App.css';
 import GameCard from './GameCard';
 //f88defa2
-
 const API_URL = 'http://www.omdbapi.com?apikey=f88defa2';
 
 
