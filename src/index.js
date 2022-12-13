@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Bookings from './Bookings'
+import Homepage from './Homepage'
+//import './index.css'
 
 const Web = () =>{
 	return (
 		<>
-		<App/>
+		<Homepage/>
 		</>
 		);
 }
