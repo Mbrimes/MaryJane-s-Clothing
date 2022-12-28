@@ -1,28 +1,44 @@
 {
-  "tasks": [
+  "cloths": [
     {
       "id": 1,
-      "text": "Doctors Appointment",
-      "day": "Feb 5th at 2:30pm",
-      "reminder": true
+      "text": "Female Casual Gown",
+      "image": "/Assests/A12.jpg",
+      "price": "#2500",
+      "category":"Women's Clothing",
+      "description":"Your perfect cloth for everday use"
     },
     {
       "id": 2,
-      "text": "School Exam",
-      "day": "March 5th at 2:30pm",
-      "reminder": true
+      "text": "Long Sleeve Female Gown",
+      "image": "/Assests/A14.jpg",
+      "price": "#2500",
+      "category":"Women's Clothing",
+      "description":"Your perfect cloth for everday use"
     },
     {
       "id": 3,
-      "text": "Shopping at the Mall",
-      "day": "Dec 25th at 12:00am",
-      "reminder": true
+      "text": "Jump Suit",
+      "image": "/Assests/A16.jpg",
+      "price": "#2500",
+      "category":"Women's Clothing",
+      "description":"Your perfect cloth for everday use"
     },
     {
-      "text": "Birthday",
-      "day": "29th Dec ",
-      "reminder": true,
-      "id": 4
+      "id": 4,
+      "text": "White Short Gown",
+      "image": "/Assests/A18.jpg",
+      "price": "#2500",
+      "category":"Women's Clothing",
+      "description":"Your perfect cloth for everday use"
+    },
+    {
+      "id": 5,
+      "text": "Long Sleeve",
+      "image": "/Assests/A20.jpg",
+      "price": "#2500",
+      "category":"Women's Clothing",
+      "description":"Your perfect cloth for everday use"
     }
   ]
 }

@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Homepage from './Homepage'
-//import './index.css'
+//import Homepage from './Homepage'
+import ShoppingPage from './Components/Shop/ShoppingPage';
+import './index.css'
 
 const Web = () =>{
 	return (
 		<>
-		<Homepage/>
+		<ShoppingPage/>
 		</>
 		);
 }
